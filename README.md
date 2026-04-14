@@ -4,5 +4,5 @@
 
 
 ### 기술스택
-FrontEnd: React + Next.js
+FrontEnd: React + Next.js </br>
 BackEnd: FastAPI
