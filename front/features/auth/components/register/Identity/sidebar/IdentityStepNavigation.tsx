@@ -8,18 +8,22 @@ export default function IdentityStepNavigation() {
             <StepNavigationItem 
                 itemName="Identity"
                 imageSrc="../../../../../../images/icons/identity.svg"
+                href="/register/identity"
             />
             <StepNavigationItem 
                 itemName="Security"
                 imageSrc="../../../../../../images/icons/security.svg"
+                href=""
             />
             <StepNavigationItem 
                 itemName="Preferences"
                 imageSrc="../../../../../../images/icons/preferences.svg"
+                href=""
             />
             <StepNavigationItem 
                 itemName="Review"
                 imageSrc="../../../../../../images/icons/review.svg"
+                href=""
             />
         </nav>
     )
