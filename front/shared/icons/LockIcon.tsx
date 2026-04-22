@@ -1,12 +1,17 @@
 import Image from "next/image"
 
 
+type LockIconProps = {
+    className?: string
+    imageSrc?: string
+}
 
-export default function LockIcon() {
+
+export default function LockIcon({ className, imageSrc }: LockIconProps ) {
     return (
-        <div className="w-full max-w-[24px] min-h-[24px] h-auto flex items-center justify-center">
+        <div className={className}>
             <Image 
-                src="../../images/icons/lock.svg" 
+                src={imageSrc || "../../images/icons/lock-blue.svg"} 
                 alt="lock-icon" 
                 width={15} 
                 height={20} 

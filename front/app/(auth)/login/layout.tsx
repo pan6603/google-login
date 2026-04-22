@@ -1,4 +1,4 @@
-import LoginPageHeader from "@/features/auth/components/layout/LoginPageHeader"
+import LoginPageHeader from "@/features/auth/components/login/header/LoginPageHeader"
 
 
 export default function LoginLayout({
